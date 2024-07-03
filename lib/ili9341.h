@@ -28,13 +28,13 @@
   // 
   // Data
   // ---------------------------------------------------------------
-  #define ILI9341_PORT_DATA     PORTD
-  #define ILI9341_DDR_DATA      DDRD
-  #define ILI9341_PIN_DATA      PIND
+  #define ILI9341_PORT_DATA     PORTC
+  #define ILI9341_DDR_DATA      DDRC
+  #define ILI9341_PIN_DATA      PINC
   // Control 
   // ---------------------------------------------------------------
-  #define ILI9341_DDR_CONTROL   DDRC
-  #define ILI9341_PORT_CONTROL  PORTC
+  #define ILI9341_DDR_CONTROL   DDRA
+  #define ILI9341_PORT_CONTROL  PORTA
   #define ILI9341_PIN_RST       4
   #define ILI9341_PIN_WR        1     // Write
   #define ILI9341_PIN_RS        2     // Register Select -> D/C
